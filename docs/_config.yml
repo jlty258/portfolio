@@ -1,0 +1,11 @@
+title: Guan Chen
+description: Senior Data Platform Engineer — Building distributed data infrastructure
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+markdown: kramdown
+kramdown:
+  input: GFM
