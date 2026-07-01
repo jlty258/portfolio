@@ -24,6 +24,8 @@ Shanghai Puxin Future Internet Research Institute | Dec 2024 – Present
 
 *MIRA / ChainWeaver — Privacy Computing Platform*
 
+- Built Data Service and storage abstraction supporting 10+ heterogeneous data
+  sources, billion-scale table reads, and S3 object storage access
 - Designed PQL execution planning pipeline converting declarative queries into
   distributed DAGs, enabling application teams to submit queries instead of
   custom orchestration scripts
@@ -42,8 +44,9 @@ Shanghai Jiayu Intelligent Robotics | Jun 2020 – Sep 2024
 
 *Connected Vehicle Telematics — National-Scale Streaming Platform (China)*
 
-- Owned end-to-end streaming platform architecture serving 1M+ connected
-  vehicles and 10B+ telemetry events/day on a 1000+ vCore Flink cluster
+- Scaled Apache Flink streaming platform from 10,000 to 1,000,000+ connected
+  vehicles with stable production output on a 1000+ vCore cluster
+- Owned end-to-end platform architecture processing 10B+ telemetry events/day
 - Designed Kafka ingestion boundary decoupling millions of vehicle T-Box
   producers from downstream stream processing and storage consumers
 - Built Flink pipelines for real-time aggregation and enrichment; Apache Doris
@@ -59,13 +62,14 @@ Ping An Securities | May 2017 – Apr 2020
 
 *Enterprise Financial Analytics — Metric Platform (China)*
 
+- Reduced 1000+ vCore batch computation time from 2.5 hours to 1.5 hours
+  through Hive query optimization and Hadoop workload tuning
 - Architected metric platform unifying PB-scale Hive analytics with
-  Elasticsearch serving 100000+ searchable metric fields to business
+  Elasticsearch serving 100,000+ searchable metric fields to business
   applications without direct Hive access
 - Designed dynamic schema expansion mapping 2000+ Hive physical columns to
   Elasticsearch through a Map-based translation layer
-- Optimized Hive and Hadoop on 1000+ vCore cluster across PB-scale storage,
-  improving query latency and cluster resource utilization
+- Optimized Hive and Hadoop on 1000+ vCore cluster across PB-scale storage
 - Established compute-serve separation pattern: batch computation in Hive,
   interactive search in Elasticsearch
 
@@ -91,7 +95,7 @@ Metadata, Data Governance
 
 **Streaming & Compute:** Kafka, Flink, Spark, Hive, Hadoop
 
-**Storage & Search:** HDFS, Doris, Hudi, Elasticsearch
+**Storage & Search:** HDFS, Doris, Hudi, Elasticsearch, S3
 
 **Infrastructure:** Linux, Docker, Kubernetes
 

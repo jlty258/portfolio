@@ -120,9 +120,10 @@ correctly without measurement.
 **Impact**
 
 Application teams submit declarative PQL queries instead of orchestrating
-distributed jobs manually. New execution backends integrate through documented
-platform interfaces rather than per-backend custom code. Optimization decisions
-are driven by benchmark evidence rather than assumptions.
+distributed jobs manually. Data Service supports 10+ heterogeneous data
+source types, billion-scale table reads, and S3 object storage access.
+New execution backends integrate through documented platform interfaces.
+Optimization decisions are driven by benchmark evidence rather than assumptions.
 
 Technologies: Java, Apache Flink, Docker, Kubernetes, Linux
 
@@ -212,11 +213,12 @@ data quality cannot rely on tribal knowledge.
 
 **Impact**
 
-Platform ingests and processes telemetry from 1M+ connected vehicles without
-ingestion-producer coupling failures during peak traffic. Downstream teams
-discover and trust telemetry datasets through standardized metadata catalog.
-Flink job operations scale across 1000+ vCore cluster through integrated
-operational tooling.
+Scaled Apache Flink platform from 10,000 to 1,000,000+ connected vehicles
+with stable production output. Platform ingests and processes 10B+ telemetry
+events/day without ingestion-producer coupling failures during peak traffic.
+Downstream teams discover and trust telemetry datasets through standardized
+metadata catalog. Flink job operations scale across 1000+ vCore cluster
+through integrated operational tooling.
 
 Technologies: Kafka, Apache Flink, Apache Doris, metadata systems, data governance
 
@@ -295,11 +297,11 @@ optimization the lower-risk path to performance improvement.
 
 **Impact**
 
-Business applications query 100000+ searchable metric fields through
-Elasticsearch without direct Hive access or SQL expertise. New metrics onboard
-through the Map layer without manual schema migration across Hive and
-Elasticsearch. Cluster utilization improved on the 1000+ vCore deployment
-through query plan and resource allocation optimization.
+Reduced 1000+ vCore batch computation time from 2.5 hours to 1.5 hours
+through Hive query optimization and Hadoop workload tuning. Business
+applications query 100,000+ searchable metric fields through Elasticsearch
+without direct Hive access or SQL expertise. New metrics onboard through
+the Map layer without manual schema migration across Hive and Elasticsearch.
 
 Technologies: Hive, Hadoop, Spark, Flink, Elasticsearch, HDFS
 
@@ -367,7 +369,7 @@ Tianjin University
 
 **Distributed Computing:** Kafka, Flink, Spark, Hive, Hadoop
 
-**Storage:** HDFS, Apache Doris, Hudi, Elasticsearch
+**Storage:** HDFS, Apache Doris, Hudi, Elasticsearch, S3
 
 **Infrastructure:** Linux, Docker, Kubernetes
 

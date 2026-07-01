@@ -34,7 +34,8 @@ business users.
 
 **Result**
 
-- 100000+ searchable metric fields served through Elasticsearch
+- 100,000+ searchable metric fields served through Elasticsearch
+- Reduced 1000+ vCore batch computation time from 2.5 hours to 1.5 hours
 - New metrics onboard through Map layer without cross-system schema migration
 - Business applications query metrics without Hive or SQL expertise
 - PB-scale batch computation and interactive search operate independently
@@ -77,6 +78,8 @@ consumers.
 
 **Result**
 
+- Scaled Apache Flink platform from 10,000 to 1,000,000+ connected vehicles
+  with stable production output
 - Platform processes 10B+ events/day without device connectivity failures
   during peak traffic
 - Multiple downstream pipelines consume independently via isolated consumer
@@ -125,6 +128,8 @@ execution plans, eliminating per-workload orchestration code.
 
 - Application teams submit declarative PQL queries instead of orchestration
   scripts
+- Data Service supports 10+ data source types, billion-scale table reads,
+  and S3 object storage access
 - New execution backends integrate through documented platform interfaces
 - Optimization driven by benchmark evidence across planning and runtime
   dimensions
