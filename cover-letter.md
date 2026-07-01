@@ -98,6 +98,19 @@ as an architecture decision driven by access patterns, not technology preference
 
 ---
 
+## Career Transition Note (Optional)
+
+Use if asked about Sep 2024 – Dec 2024 between roles. **Customize with your
+actual reason before sending.**
+
+> After completing the connected vehicle platform architecture work at Jiayu
+> in September 2024, I [brief transition activity — e.g., evaluated next
+> platform challenge / completed handover] before joining Puxin in December 2024
+> to lead execution planning architecture for the MIRA privacy computing
+> platform.
+
+---
+
 ## Short Cover Letter (Email Application)
 
 Subject: Senior Data Platform Engineer Application — Guan Chen
