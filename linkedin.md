@@ -1,19 +1,14 @@
 # LinkedIn Profile
 
-Copy-ready content for LinkedIn profile sections.
+Copy-ready content synced with Senior resume (v4, quantified metrics).
 
-> **Action:** Create profile at https://www.linkedin.com/in/ and add URL to resume
-> header once available.
+**Step-by-step guide:** [LINKEDIN_SETUP.md](./LINKEDIN_SETUP.md)
 
 ---
 
 ## Headline
 
-Senior Data Platform Engineer | Distributed Data Infrastructure | Kafka · Flink · Platform Architecture
-
-Alternative:
-
-Platform Engineer building enterprise data infrastructure at scale
+Senior Data Platform Engineer | Kafka · Flink · Platform Architecture | 10B+ events/day · PB-scale Analytics
 
 ---
 
@@ -25,20 +20,19 @@ behind stable interfaces so product teams can move faster.
 Over 13 years, I have designed and owned platform architectures across three
 domains:
 
-• Privacy Computing — execution planning, query planner, distributed DAG,
-  storage abstraction (MIRA / ChainWeaver)
+• Privacy Computing — Data Service supporting 10+ data sources, billion-scale
+  table reads, S3 access; PQL execution planning (MIRA / ChainWeaver)
 
-• Streaming Infrastructure — 1M+ connected vehicles, 10B+ events/day,
-  1000+ vCore Flink cluster (Connected Vehicle Platform)
+• Streaming Infrastructure — Scaled Flink from 10,000 to 1,000,000+ connected
+  vehicles; 10B+ events/day on 1000+ vCore cluster
 
-• Analytical Computing — PB-scale metric platform, 100000+ searchable fields,
-  dynamic schema architecture (Ping An Securities)
+• Analytical Computing — Reduced 1000+ vCore batch computation from 2.5h to
+  1.5h; 100,000+ searchable metric fields (Ping An Securities)
 
 My focus is platform engineering: reusable abstractions, execution planning,
 storage layers, and engineering standards — not one-off pipelines.
 
-Career evolution: Scientific Computing → Analytical Computing → Streaming
-Infrastructure → Privacy Computing
+Portfolio: https://github.com/jlty258/portfolio
 
 Open to global remote opportunities.
 
@@ -48,118 +42,72 @@ Open to global remote opportunities.
 
 ### Senior Data Platform Engineer
 
-Shanghai Puxin Future Internet Research Institute
+Shanghai Puxin Future Internet Research Institute | Dec 2024 – Present
 
-Dec 2024 – Present
+• Built Data Service and storage abstraction supporting 10+ data sources,
+  billion-scale table reads, and S3 object storage access
 
-ChainWeaver / MIRA Privacy Computing Platform
+• Designed PQL execution planning pipeline and query planner across
+  distributed DAGs
 
-• Designed PQL execution planning pipeline converting declarative queries into
-  distributed DAGs across heterogeneous compute backends
+• Established platform interfaces and standards across planner, scheduler,
+  execution engine, and data service components
 
-• Architected query planner, Data Service layer, and storage abstraction
-  enabling backend portability without execution engine changes
-
-• Established platform interfaces and engineering standards across planner,
-  scheduler, execution engine, and data service components
-
-• Built benchmark platform providing measurable evidence for execution
-  planning and runtime optimization
-
-Technologies: Java, Apache Flink, Docker, Kubernetes, Linux
+• Built benchmark platform driving execution planning optimization with
+  measurable evidence
 
 ---
 
 ### Senior Data Platform Engineer / Technical Architect
 
-Shanghai Jiayu Intelligent Robotics
+Shanghai Jiayu Intelligent Robotics | Jun 2020 – Sep 2024
 
-Jun 2020 – Sep 2024
+• Scaled Apache Flink platform from 10,000 to 1,000,000+ connected vehicles
+  with stable production output; 10B+ events/day on 1000+ vCore cluster
 
-Connected Vehicle Platform
+• Designed Kafka ingestion boundary for national-scale vehicle telematics
 
-• Architected streaming platform for 1M+ connected vehicles processing 10B+
-  telemetry events/day on 1000+ vCore Flink cluster
+• Built Flink pipelines with Apache Doris real-time warehouse
 
-• Designed Kafka ingestion boundary decoupling device producers from stream
-  processing and storage consumers
-
-• Built real-time warehouse on Apache Doris with metadata and data governance
-  as platform primitives
-
-• Integrated Dinky platform for Flink job lifecycle management at cluster scale
-
-Technologies: Kafka, Apache Flink, Apache Doris
+• Established metadata and data governance as platform-wide standards
 
 ---
 
 ### Senior Data Platform Engineer
 
-Ping An Securities
+Ping An Securities | May 2017 – Apr 2020
 
-May 2017 – Apr 2020
+• Reduced 1000+ vCore batch computation from 2.5 hours to 1.5 hours
 
-Enterprise Metric Platform
+• Architected metric platform serving 100,000+ searchable Elasticsearch fields
 
-• Architected metric platform bridging PB-scale Hive analytics with
-  Elasticsearch serving 100000+ searchable fields
+• Designed dynamic schema expansion for 2000+ Hive columns via Map-based
+  translation layer
 
-• Designed dynamic schema expansion solving 2000+ Hive column to Elasticsearch
-  field mapping at scale
-
-• Optimized 1000+ vCore Hadoop cluster through Hive execution tuning and
-  workload isolation
-
-Technologies: Hive, Hadoop, Spark, Flink, Elasticsearch, HDFS
+• Established compute-serve separation: Hive batch, Elasticsearch search
 
 ---
 
-## Skills (LinkedIn Endorsements)
+## Skills
 
-Top Skills:
-
-- Platform Engineering
-- Distributed Systems
-- Apache Kafka
-- Apache Flink
-- System Architecture
-- Data Infrastructure
-- Apache Hive
-- Elasticsearch
-
-Additional:
-
-- Apache Spark
-- Apache Doris
-- Kubernetes
-- Docker
-- Java
-- Python
-- Data Governance
-- Metadata Management
-- Execution Planning
-- Privacy Computing
+Platform Engineering, Distributed Systems, Apache Kafka, Apache Flink,
+System Architecture, Data Infrastructure, Apache Hive, Elasticsearch,
+Kubernetes, Java, Apache Spark, Apache Doris, Docker, Python, Amazon S3,
+Data Governance, Privacy Computing
 
 ---
 
-## Featured Section Recommendations
+## Featured
 
-Link to portfolio repository sections:
-
-1. Privacy Computing Platform Architecture
-2. Streaming Platform at 10B+ Events/Day
-3. Enterprise Metric Platform — Dynamic Schema Design
-4. Building Data Platforms: Lessons from Three Domains
+- https://github.com/jlty258/portfolio
+- https://github.com/jlty258/portfolio/blob/main/resume/Senior_US_Resume.pdf
 
 ---
 
 ## Open To
 
-- Senior Data Platform Engineer roles
-- Staff Data Platform Engineer roles
-- Distributed Systems Engineer roles
-- Platform Engineer roles
-- Global remote positions
+Senior / Staff Data Platform Engineer, Distributed Systems Engineer,
+Platform Engineer, Global Remote
 
-Target companies: Databricks, Snowflake, Confluent, Cloudflare, ClickHouse,
-Elastic, Grafana Labs, GitLab, Canonical
+Target: Databricks, Snowflake, Confluent, Cloudflare, ClickHouse, Elastic,
+Grafana Labs, GitLab, Grab, Shopee
