@@ -8,7 +8,7 @@ Customize the [Company] and [Specific Interest] sections per application.
 ## Standard Cover Letter
 
 Guan Chen
-Shanghai, China | jromeguan@gmail.com | https://github.com/jlty258
+Shanghai, China | jromeguan@gmail.com | https://linkedin.com/in/jrome-guan-47888241a | https://github.com/jlty258/portfolio
 
 [Date]
 

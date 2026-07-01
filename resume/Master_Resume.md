@@ -4,7 +4,7 @@ Senior Data Platform Engineer
 
 Shanghai, China | Open to Global Remote
 
-jromeguan@gmail.com | https://github.com/jlty258
+jromeguan@gmail.com | https://linkedin.com/in/jrome-guan-47888241a | https://github.com/jlty258/portfolio
 
 ---
 

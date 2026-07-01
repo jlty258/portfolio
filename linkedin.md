@@ -2,7 +2,7 @@
 
 Copy-ready content synced with Senior resume (v4, quantified metrics).
 
-**Step-by-step guide:** [LINKEDIN_SETUP.md](./LINKEDIN_SETUP.md)
+Profile: https://www.linkedin.com/in/jrome-guan-47888241a
 
 ---
 
