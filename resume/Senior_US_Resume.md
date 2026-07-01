@@ -8,11 +8,10 @@ jromeguan@gmail.com | https://github.com/jlty258 | https://github.com/jlty258/po
 
 ## Summary
 
-Platform engineer with 13+ years building distributed data infrastructure,
-transitioning from scientific computing to enterprise platform engineering.
+Platform engineer with 13+ years building distributed data infrastructure.
 Designed PB-scale analytical platforms, streaming systems at 10B+ events/day
-and 1M+ connected vehicles, and privacy computing execution pipelines with
-query planning and storage abstraction.
+and 1M+ connected vehicles, and privacy computing pipelines with query planning,
+storage abstraction, and multi-source data access.
 
 ---
 
@@ -24,19 +23,14 @@ Shanghai Puxin Future Internet Research Institute | Dec 2024 – Present
 
 *MIRA / ChainWeaver — Privacy Computing Platform*
 
-- Built Data Service and storage abstraction supporting 10+ heterogeneous data
-  sources, billion-scale table reads, and S3 object storage access
-- Designed PQL execution planning pipeline converting declarative queries into
-  distributed DAGs, enabling application teams to submit queries instead of
-  custom orchestration scripts
-- Architected query planner separating query semantics from execution strategy,
-  allowing execution engine evolution without upstream contract changes
-- Built reusable Data Service and storage abstraction layers, enabling new
-  storage backends to integrate through stable interfaces
-- Established platform interfaces and engineering standards across planner,
-  scheduler, execution engine, and data service components
-- Built benchmark platform to drive execution planning and runtime optimization
-  with measurable evidence
+- Built Data Service and storage abstraction supporting 10+ data sources,
+  billion-scale table reads, and S3 object storage access
+- Designed PQL execution planning pipeline and query planner, separating query
+  semantics from execution strategy across distributed DAGs
+- Established platform interfaces and standards across planner, scheduler,
+  execution engine, and data service components
+- Built benchmark platform driving execution planning optimization with
+  measurable evidence
 
 ### Senior Data Platform Engineer / Technical Architect
 
@@ -44,17 +38,14 @@ Shanghai Jiayu Intelligent Robotics | Jun 2020 – Sep 2024
 
 *Connected Vehicle Telematics — National-Scale Streaming Platform (China)*
 
-- Scaled Apache Flink streaming platform from 10,000 to 1,000,000+ connected
-  vehicles with stable production output on a 1000+ vCore cluster
-- Owned end-to-end platform architecture processing 10B+ telemetry events/day
-- Designed Kafka ingestion boundary decoupling millions of vehicle T-Box
-  producers from downstream stream processing and storage consumers
-- Built Flink pipelines for real-time aggregation and enrichment; Apache Doris
-  serves as real-time warehouse for business-facing analytical queries
+- Scaled Apache Flink platform from 10,000 to 1,000,000+ connected vehicles
+  with stable production output; 10B+ events/day on 1000+ vCore cluster
+- Designed Kafka ingestion boundary decoupling vehicle T-Box producers from
+  downstream stream processing and storage consumers
+- Built Flink aggregation and enrichment pipelines; Apache Doris as real-time
+  warehouse for business-facing analytical queries
 - Established metadata and data governance as platform-wide standards across
   national-scale telemetry datasets
-- Integrated Dinky for Flink job lifecycle management across the 1000+ vCore
-  cluster
 
 ### Senior Data Platform Engineer
 
@@ -64,27 +55,20 @@ Ping An Securities | May 2017 – Apr 2020
 
 - Reduced 1000+ vCore batch computation time from 2.5 hours to 1.5 hours
   through Hive query optimization and Hadoop workload tuning
-- Architected metric platform unifying PB-scale Hive analytics with
-  Elasticsearch serving 100,000+ searchable metric fields to business
-  applications without direct Hive access
-- Designed dynamic schema expansion mapping 2000+ Hive physical columns to
-  Elasticsearch through a Map-based translation layer
-- Optimized Hive and Hadoop on 1000+ vCore cluster across PB-scale storage
-- Established compute-serve separation pattern: batch computation in Hive,
-  interactive search in Elasticsearch
+- Architected metric platform serving 100,000+ searchable fields via
+  Elasticsearch, eliminating direct Hive access for business applications
+- Designed dynamic schema expansion mapping 2000+ Hive columns to Elasticsearch
+  through a Map-based translation layer
+- Established compute-serve separation: batch computation in Hive, interactive
+  search in Elasticsearch
 
-### Data Platform Engineer
+### Data Platform Engineer — Shanghai Jiayin Data Technology
 
-Shanghai Jiayin Data Technology | Restaurant Intelligence / Wi-Fi Analytics
+Restaurant intelligence and commercial Wi-Fi analytics; Storm, Hive, Hadoop
 
-- Built streaming and batch pipelines for restaurant intelligence and commercial
-  Wi-Fi analytics using Storm, Hive, and Hadoop
+### Research Engineer — Shanghai Ship and Shipping Research Institute
 
-### Research Engineer
-
-Shanghai Ship and Shipping Research Institute | Scientific Computing
-
-- Applied Hadoop and Hive to large-scale hydrodynamic simulation workloads
+Hydrodynamic simulation workloads on Hadoop and Hive
 
 ---
 
@@ -97,22 +81,11 @@ Metadata, Data Governance
 
 **Storage & Search:** HDFS, Doris, Hudi, Elasticsearch, S3
 
-**Infrastructure:** Linux, Docker, Kubernetes
-
-**Languages:** Java, Python, C
+**Infrastructure:** Linux, Docker, Kubernetes | **Languages:** Java, Python, C
 
 ---
 
 ## Education
 
 Master, Naval Architecture and Ocean Engineering — Shanghai Ship and Shipping
-Research Institute
-
-Bachelor, Hydraulic Engineering — Tianjin University
-
----
-
-## Portfolio
-
-Architecture documents, system design deep-dives, and interview preparation
-materials: https://github.com/jlty258/portfolio
+Research Institute | Bachelor, Hydraulic Engineering — Tianjin University

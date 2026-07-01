@@ -2,6 +2,9 @@
 
 Copy-ready content for LinkedIn profile sections.
 
+> **Action:** Create profile at https://www.linkedin.com/in/ and add URL to resume
+> header once available.
+
 ---
 
 ## Headline
